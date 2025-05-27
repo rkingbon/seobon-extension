@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "SEOBON",
+  "version": "1.0",
+  "description": "Be On (the) Net (BON) is a powerful SEO analyzer app designed to help websites climb search rankings.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "SEOBON"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
