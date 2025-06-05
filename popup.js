@@ -2101,7 +2101,7 @@ Please provide suggestions in this exact JSON format:
 
 Focus on:
 1. Title should be 50-60 characters, compelling and include main keywords
-2. Meta description should be 150-160 characters, engaging with call-to-action
+2. Meta description should be a concise, informative, and compelling summary of a webpage, designed to entice users to click on the search result. It should be between 150 and 160 characters. A good meta description will answer user intent, include relevant keywords, and use action words to encourage clicks. 
 3. Meta keywords should be 5-10 relevant keywords (comma-separated)
 4. H1 should be clear, descriptive and include primary keyword
 5. Consider the page content and structure for relevance
